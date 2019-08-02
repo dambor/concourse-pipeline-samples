@@ -3,5 +3,5 @@ applications:
 - name: APPNAME
   command: node index.js
   random-route: true
-  buildpacks: https://github.com/cloudfoundry/buildpack-nodejs.git
+  buildpack: https://github.com/cloudfoundry/buildpack-nodejs.git
   instances: 3
